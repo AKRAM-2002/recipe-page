@@ -153,13 +153,17 @@ tr > td:last-child{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%);  font-weight: bold; text-decoration: none;}
 
-@media screen and (max-width:375px) {
+@media screen and (min-width:375px) {
 
-    h1{
-        font-size: 30px;
+    .head-main h1{
+        font-size: 32px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
   
-    table tbody {
-        width: 50%;
-    }    
+      
+    table tbody tr td:nth-child(2){
+        margin-left: -5rem;
+    }
 }
