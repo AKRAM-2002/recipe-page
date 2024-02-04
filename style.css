@@ -72,10 +72,10 @@ h1,h2{
     font-weight: bold;
 }
 
-h1{
+.head-main h1{
     color: hsl(24, 5%, 18%);
-    font-weight: 700;
-    font-size: 50px;
+    font-weight: 800;
+    font-size: 60px;
 }
 
 h3{
@@ -94,9 +94,9 @@ h2{
     border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
-.nutrition-section p{
+p{
     font-family: 'Outfit', sans-serif;
-    font-size: 16px;
+    
 }
 table{
     border-collapse: collapse;
@@ -153,14 +153,7 @@ tr > td:last-child{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%);  font-weight: bold; text-decoration: none;}
 
-@media screen and (min-width:375px) {
-
-    .head-main h1{
-        font-size: 32px;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-    }
+@media screen and (min-width:375px){
   
       
     table tbody tr td:nth-child(2){
