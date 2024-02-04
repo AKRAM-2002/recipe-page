@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap');
+
+body{
+    background: hsl(330, 100%, 98%);
+
+}
+
+.main{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;        
+    margin: 50px  auto;
+    margin-bottom: 10px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.preparation-section {
+    background-color: hsl(330, 100%, 98%);
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.preparation-section ul li{
+    
+    list-style-type: disc;
+    list-style-position: outside;
+    list-style-image: none;
+    color: hsl(30, 10%, 34%);
+}
+ul{
+    list-style-type: disc;
+    
+}
+ul li::marker,ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+ul li, ol li, table{
+    line-height: 1.9;
+    padding-left: 15px;
+    font-family: 'Outfits', sans-serif;
+    font-weight: 500;
+}
+
+p, ul li > * :not(span){
+    color: hsl(30, 10%, 34%);
+}
+
+ ul li, ol li{
+    color: hsl(30, 10%, 34%);
+    list-style-position: outside;
+}
+
+ol li span,ul li span{
+    font-weight: bold;
+    color: hsl(30, 10%, 34%);
+}
+
+.head-main img{
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1,h2{
+    font-family: 'Young',serif;
+    font-weight: bold;
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Outfit',serif;
+    color: hsl(14, 45%, 36%); 
+    font-weight: 700;
+}
+h2{
+    
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+}
+
+.divider{
+    width: 100%;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition-section p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+table{
+    border-collapse: collapse;
+    width: 110%;
+    margin-left: 100px;
+    margin: auto;
+}
+
+table tbody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+table tbody tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    column-gap: 150px;
+}
+
+table tbody tr td:nth-child(2){
+    margin-left: -15rem;
+}
+table tbody tr{
+    font-weight: 600;
+}
+
+table tbody tr:last-child{
+    border-bottom: none;
+}
+
+tr > td:first-child{
+    color: hsl(30, 10%, 34%);
+}
+
+tr > td:last-child{
+    color: hsl(14, 45%, 36%);
+    text-align: left;
+    font-weight:600;
+}
+
+.attribution{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 60px;
+    font-family: 'Young', sans-serif;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);  font-weight: bold; text-decoration: none;}
+
+@media screen and (max-width:375px) {
+
+    h1{
+        font-size: 30px;
+    }
+  
+    table tbody {
+        width: 50%;
+    }    
+}
